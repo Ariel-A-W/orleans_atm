@@ -35,7 +35,7 @@ public class ATMController : ControllerBase
     [HttpPost("verificarcuenta/ingresar/{verificarCuentatId}")]
     public async Task<IActionResult> GetIngresar(
         Guid verificarCuentaId, 
-        Ingersar ingresar,
+        Ingresar ingresar,
         IClusterClient clusterClient
     ) 
     { 
