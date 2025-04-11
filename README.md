@@ -6,7 +6,7 @@ En esta oportunidad vamos a crear una aplicación muy simplificada de las funcio
 
 ## Conceptos Importantes
 
-A continuación, vamos a describir muy somera y rápidamente algunos conceptos específicos acerca de Microsoft Orleans. Para mayores detalles, te recomiendo que te dirijas a la documentación oficial de Microsoft [aquí](https://github.com/pandao/editor.md "aquí").
+A continuación, vamos a describir muy somera y rápidamente algunos conceptos específicos acerca de Microsoft Orleans. Para mayores detalles, te recomiendo que te dirijas a la documentación oficial de Microsoft [aquí](https://learn.microsoft.com/es-es/dotnet/orleans/overview "aquí").
 
 ![Figura 1](docs/capture_1.png)
 
