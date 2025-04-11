@@ -3,7 +3,7 @@
 namespace OrleansATM.APIClient.Contracts;
 
 [DataContract]
-public record Ingersar
+public record Ingresar
 {
     [DataMember]
     public decimal Monto { get; init; }
