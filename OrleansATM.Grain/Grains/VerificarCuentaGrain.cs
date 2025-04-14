@@ -20,8 +20,8 @@ public class VerificarCuentaGrain : Grain, IVerificarCuentaGrain
     public async Task<int> Extraer(decimal monto)
     {
         var saldoActual = _saldoState.State.Saldo;
-        if (monto > 0 && saldoActual > 0)
-        {            
+        if ((monto > 0 && saldoActual > 0) && (saldoActual > monto))
+        {               
             var saldoNuevo = saldoActual - monto;
             _saldoState.State.Saldo = saldoNuevo;
             await _saldoState.WriteStateAsync();
