@@ -5,7 +5,7 @@ using OrleansATM.Grains.State;
 using Xunit;
 using Assert = Xunit.Assert;
 
-namespace OrleansATM.Tests;
+namespace OrleansATM.Tests.Grains;
 
 public class VerificarCuentaGrainTests
 {
